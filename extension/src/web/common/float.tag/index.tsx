@@ -20,7 +20,7 @@ export default function FloatTag({ url }: FloatTagProps) {
   const [showTool, setShowTool] = useState(false);
   const [hover, setHover] = useState(false);
   const [logined, setLogined] = useState(false);
-  const [grow, setGrow] = useState(false);
+  const [grow, setGrow] = useState(true);
   const dispatch = useDispatch();
   (window as any)['requestMode'] = 'test';
 
