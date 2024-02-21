@@ -154,13 +154,10 @@ const main: React.FC<Props> = ({ title }: Props) => {
                     {careers.map((option: any, index) => (
                       <Ripple
                         key={index}
-                        className={` p-4 rounded-lg mb-4 cursor-pointer ${
-                          occupation === option ? 'selected-color' : 'base-card'
-                        }`}
+                        className={` p-4 rounded-lg mb-4 cursor-pointer ${occupation === option ? 'selected-color' : 'base-card'}`}
                         color="#FFA50080"
                         during={1200}
-                        onClick={() => setOccupation(option)}
-                      >
+                        onClick={() => setOccupation(option)} placeholder={undefined}                      >
                         <div className="flex items-center ">
                           <div>
                             <div className="text-gray-600 text-sm">
@@ -172,13 +169,10 @@ const main: React.FC<Props> = ({ title }: Props) => {
                     ))}
                     {!createCareers ? (
                       <Ripple
-                        className={` p-4 rounded-lg mb-4 cursor-pointer ${
-                          false ? 'selected-color' : 'base-card'
-                        }`}
+                        className={` p-4 rounded-lg mb-4 cursor-pointer ${false ? 'selected-color' : 'base-card'}`}
                         color="#FFA50080"
                         during={1200}
-                        onClick={() => setCreateCareers(true)}
-                      >
+                        onClick={() => setCreateCareers(true)} placeholder={undefined}                      >
                         <div className="flex items-center ">
                           <div>
                             <div className="text-gray-600 text-sm">

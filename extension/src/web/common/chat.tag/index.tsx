@@ -240,7 +240,7 @@ function ChatWindow({ messages, onClickGrow }: ChatWindowProps) {
             top: '483px',
             width: '14px',
             left: '-8px',
-            transform: `rotate(${isBlowup ? '140': '-140'}deg) scale(.8)`,
+            transform: `rotate(${isBlowup ? '140' : '-140'}deg) scale(.8)`,
             background: '#fff',
             borderRadius: '2px',
             height: '4px',
@@ -257,6 +257,9 @@ function ChatWindow({ messages, onClickGrow }: ChatWindowProps) {
             position: 'absolute',
             transition: 'all .2s',
             top: showTemplate ? '452px' : '0px',
+            backgroundColor: '#494949',
+            color: '#fff',
+            boxShadow: '0 0 0 1px #919191 inset, 0 0 0 0 transparent',
             opacity: 0.9,
           }}
         >
@@ -383,7 +386,7 @@ function Chat({ onClickGrow }: Prop) {
   });
 
   return (
-    <div className="chat-card" style={{ background: '#f5feff' }}>
+    <div className="chat-card" style={{ background: '#656269' }}>
       <ChatWindow messages={messages} onClickGrow={onClickGrow} />
     </div>
   );
