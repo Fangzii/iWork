@@ -34,7 +34,7 @@ class TongYiAIModel:
     def get_chat_model_result(self):
         gen = Generation()
         result = gen.call(
-            Generation.Models.qwen_turbo,
+            'qwen-max-longcontext',
             messages=self.large_msg(self.msg),
             result_format='message',  # set the result to be "message" format.
         )    
