@@ -40,8 +40,9 @@ python ./server/manage.py createsuperuser # 创建超级用户
 
 python ./server/manage.py runserver # 启动服务，http://localhost:8000 访问服务
 
-```
 iWork/server/server/settings.py 中设置对应模型KEY
+
+```
 
 
 #### Client 运行
