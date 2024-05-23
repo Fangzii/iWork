@@ -50,10 +50,11 @@ iWork/server/server/settings.py 中设置对应模型KEY
 cd ./extension 
 
 yarn install
-yarn start
 
-将插件以开发者模式安装至浏览器中 [参考文档] https://support.google.com/chrome/a/answer/2714278?hl=zh-Hans
+yarn start
 ```
+
+将插件以开发者模式安装至浏览器中 [`参考文档`](https://support.google.com/chrome/a/answer/2714278?hl=zh-Hans)
 
 
 
