@@ -7,7 +7,7 @@
 <h1 align="center">iWork</h1>
 <div align="center">
   <strong>
-    网页场景提高AI 使用能效
+    多模型对接，网页场景提高AI 使用效率
   </strong>
 </div>
 <br>
